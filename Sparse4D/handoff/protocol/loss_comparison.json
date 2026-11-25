@@ -1,0 +1,24 @@
+{
+  "episodes": [
+    "Accident_Town03_Route24976_Weather1_02-10-06-35-15",
+    "CrossingBicycleFlow_Town12_Route35786_Weather6_02-09-13-13-28",
+    "HighwayCutIn_Town12_Route13448_Weather11_02-08-11-59-10",
+    "MergerIntoSlowTrafficV2_Town12_Route23810_Weather2_02-08-21-03-41",
+    "ParkedObstacle_Town12_Route19374_Weather19_02-05-14-47-39",
+    "SequentialLaneChange_Town06_Route24337_Weather1_02-06-00-51-45",
+    "VanillaNonSignalizedTurn_Town03_Route27745_Weather9_02-05-13-04-35",
+    "YieldToEmergencyVehicle_Town06_Route25175_Weather11_02-10-03-29-16"
+  ],
+  "frames": 399,
+  "selection": "validation 시나리오명을 정렬한 뒤 균등 간격8개, 시나리오별 이름순 첫 경로. 점수/GT개수를 이용한 선택 아님.",
+  "gt_policies": [
+    "original_valid",
+    "static_inclusive_v1"
+  ],
+  "batch_size": 1,
+  "training_mode": false,
+  "DN": false,
+  "precision": "FP32",
+  "scope": "동일8검증경로 진단용 loss. 전체221경로 val loss와 구분. 모델 선택/early-stop에는 사용하지 않음.",
+  "created_utc": "2026-11-05T03:41:00.116728+00:00"
+}

@@ -1,0 +1,6 @@
+*.pyc
+*.npy
+*.pth
+
+# Bench2Drive archives / extract / prepare (see README.md)
+external_data/

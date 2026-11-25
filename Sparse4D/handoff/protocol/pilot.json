@@ -1,0 +1,10 @@
+{
+  "episodes": [
+    "Accident_Town12_Route19284_Weather9_02-06-14-06-03",
+    "ConstructionObstacle_Town12_Route18506_Weather9_02-05-16-40-39",
+    "DynamicObjectCrossing_Town12_Route18151_Weather12_02-06-00-28-28",
+    "MergerIntoSlowTrafficV2_Town12_Route37742_Weather18_02-10-05-37-08"
+  ],
+  "frames_per_route": 40,
+  "selection": "train 경로 중 길이>=40인 최소 동일 길이의 이름순4개"
+}

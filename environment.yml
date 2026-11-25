@@ -1,0 +1,22 @@
+# Sparse4D × HiVT × integration — single conda env.
+#
+#   conda env create -f environment.yml
+#   conda activate HiVT
+#
+# Then install CUDA PyTorch, pip requirements, PyG wheels, and build mmcv
+# as described in README.md (do not pip-install mmcv-full from PyPI on torch 2.4).
+name: HiVT
+channels:
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch-lightning=1.5.2
+  - torchmetrics=0.10.3
+  # Compilers / nvcc for integration/setup_mmcv_hivt.sh
+  - conda-forge::gcc_linux-64=11.4.*
+  - conda-forge::gxx_linux-64=11.4.*
+  - nvidia::cuda-nvcc=12.1.105
+  - nvidia::cuda-cudart-dev=12.1.105

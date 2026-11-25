@@ -1,0 +1,315 @@
+{
+  "train_example": {
+    "episode": "DynamicObjectCrossing_Town12_Route18151_Weather12_02-06-00-28-28",
+    "split": "train",
+    "frame": 101,
+    "timestamp_s": 10.1,
+    "camera_order": [
+      "CAM_FRONT",
+      "CAM_FRONT_RIGHT",
+      "CAM_FRONT_LEFT",
+      "CAM_BACK",
+      "CAM_BACK_LEFT",
+      "CAM_BACK_RIGHT"
+    ],
+    "front_intrinsic": [
+      [
+        1142.5184053936916,
+        0.0,
+        800.0
+      ],
+      [
+        0.0,
+        1142.5184053936916,
+        450.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "front_projection": [
+      [
+        502.7080993652344,
+        352.0,
+        -5.123575772394767e-16,
+        -419.4362487792969
+      ],
+      [
+        -3.5182453141383225e-16,
+        58.0,
+        -502.7080993652344,
+        -189.69113159179688
+      ],
+      [
+        1.4518144715938708e-18,
+        1.0,
+        -2.168404344971009e-19,
+        -1.190185546875
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_global": [
+      [
+        0.022264786019092844,
+        0.9997505480826375,
+        -0.001766610310587456,
+        2212.1954229977655
+      ],
+      [
+        -0.9997222550546766,
+        0.022250430692514114,
+        -0.007767308567921325,
+        -5930.924426371199
+      ],
+      [
+        -0.007726063157629906,
+        0.0019390571067123695,
+        0.9999682734995249,
+        371.9913817764867
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_global_inv": [
+      [
+        0.022264786019092854,
+        -0.9997222550546769,
+        -0.007726063157629909,
+        -5975.657170906445
+      ],
+      [
+        0.9997505480826381,
+        0.02225043069251413,
+        0.0019390571067123704,
+        -2080.3992762488774
+      ],
+      [
+        -0.001766610310587457,
+        -0.007767308567921328,
+        0.9999682734995254,
+        -414.1388126610809
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "raw_shape": [
+      6,
+      3,
+      256,
+      704
+    ],
+    "raw_dtype": "uint8",
+    "normalized_dtype": "float32",
+    "normalized_min_max": [
+      -2.1179039478302,
+      2.640000104904175
+    ],
+    "first_pixel_rgb": [
+      51,
+      50,
+      58
+    ],
+    "first_pixel_normalized": [
+      -1.2445415258407593,
+      -1.1603641510009766,
+      -0.7935512065887451
+    ],
+    "target_count": 3,
+    "target_shape": [
+      3,
+      9
+    ],
+    "target_dtype": "float32",
+    "target_labels": [
+      0,
+      0,
+      0
+    ],
+    "target_ids": [
+      6,
+      3,
+      2
+    ],
+    "targets_first_two": [
+      [
+        -3.356790542602539,
+        2.2305076122283936,
+        -1.1809502840042114,
+        4.181197166442871,
+        1.994159460067749,
+        1.3852856159210205,
+        -1.5886114835739136,
+        -0.14603425562381744,
+        -8.09752368927002
+      ],
+      [
+        -0.5121050477027893,
+        -17.579530715942383,
+        -1.1114208698272705,
+        4.673646926879883,
+        1.811903476715088,
+        1.4419409036636353,
+        1.552435278892517,
+        0.16741538047790527,
+        8.5918607711792
+      ]
+    ],
+    "world_gt_first_two": [
+      {
+        "episode_id": "DynamicObjectCrossing_Town12_Route18151_Weather12_02-06-00-28-28",
+        "timestamp": 10.100000000000001,
+        "track_id": "DynamicObjectCrossing_Town12_Route18151_Weather12_02-06-00-28-28:68271",
+        "class": "car",
+        "center_xyz": [
+          2214.3527221679688,
+          -5927.509765625,
+          370.8407287597656
+        ],
+        "center_lidar": [
+          -3.356790276675383,
+          2.2305074179457733,
+          -1.180950368599781
+        ],
+        "size_lwh": [
+          4.18119700271098,
+          1.9941594592782617,
+          1.3852856339622124
+        ],
+        "yaw": -3.137154985651417,
+        "velocity_xy": [
+          -8.0987548828125,
+          -0.0341796875
+        ],
+        "velocity_valid": true,
+        "score": 1.0,
+        "coordinate_frame": "world_rh",
+        "valid_mask": true,
+        "ignore_reasons": [],
+        "range_m": 3.8286137995324085,
+        "num_lidar_points": 1694,
+        "camera_frustum_overlap": true,
+        "camera_occlusion": "unknown",
+        "source_type_id": "vehicle.audi.tt",
+        "legacy_valid_mask": true,
+        "legacy_ignore_reasons": []
+      },
+      {
+        "episode_id": "DynamicObjectCrossing_Town12_Route18151_Weather12_02-06-00-28-28",
+        "timestamp": 10.100000000000001,
+        "track_id": "DynamicObjectCrossing_Town12_Route18151_Weather12_02-06-00-28-28:68267",
+        "class": "car",
+        "center_xyz": [
+          2194.61083984375,
+          -5930.794982910156,
+          370.8498649597168
+        ],
+        "center_lidar": [
+          -0.5121050180905513,
+          -17.579528984743774,
+          -1.1114209537484498
+        ],
+        "size_lwh": [
+          4.673646865136601,
+          1.81190348172203,
+          1.4419409506930003
+        ],
+        "yaw": 0.003891742353990122,
+        "velocity_xy": [
+          8.59344482421875,
+          0.0238037109375
+        ],
+        "velocity_valid": true,
+        "score": 1.0,
+        "coordinate_frame": "world_rh",
+        "valid_mask": true,
+        "ignore_reasons": [],
+        "range_m": 17.976975201235916,
+        "num_lidar_points": 64,
+        "camera_frustum_overlap": true,
+        "camera_occlusion": "unknown",
+        "source_type_id": "vehicle.mercedes.coupe_2020",
+        "legacy_valid_mask": true,
+        "legacy_ignore_reasons": []
+      }
+    ],
+    "frame0_velocity_nan_objects": 0,
+    "metadata_shapes": {
+      "projection_mat": {
+        "shape": [
+          6,
+          4,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "image_wh": {
+        "shape": [
+          6,
+          2
+        ],
+        "dtype": "float32"
+      },
+      "T_global": {
+        "shape": [
+          4,
+          4
+        ],
+        "dtype": "float64"
+      },
+      "T_global_inv": {
+        "shape": [
+          4,
+          4
+        ],
+        "dtype": "float64"
+      }
+    }
+  },
+  "prediction_example": {
+    "sample_token": "YieldToEmergencyVehicle_Town15_Route25656_Weather20_02-12-01-06-19/00010",
+    "episode_id": "YieldToEmergencyVehicle_Town15_Route25656_Weather20_02-12-01-06-19",
+    "timestamp": 1.0,
+    "objects_count": 300,
+    "all_sample_track_ids_null": true,
+    "object": {
+      "episode_id": "YieldToEmergencyVehicle_Town15_Route25656_Weather20_02-12-01-06-19",
+      "timestamp": 1.0,
+      "track_id": null,
+      "class": "car",
+      "center_xyz": [
+        536.6732000768161,
+        -764.5614987981475,
+        122.33154478938755
+      ],
+      "size_lwh": [
+        4.839714050292969,
+        1.964808702468872,
+        1.382814645767212
+      ],
+      "yaw": 0.6410438334217419,
+      "velocity_xy": [
+        1.017144424366015,
+        0.7506974262339473
+      ],
+      "score": 0.9085235595703125,
+      "coordinate_frame": "world_rh",
+      "valid_mask": true
+    }
+  },
+  "note": "기존 실험의 실제 입력과 저장 출력 예제. 이 문서 작성 과정에서 모델 추론을 새로 실행하지 않았습니다."
+}

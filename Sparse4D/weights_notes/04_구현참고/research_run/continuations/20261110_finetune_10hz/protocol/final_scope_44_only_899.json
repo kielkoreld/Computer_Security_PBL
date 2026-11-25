@@ -1,0 +1,15 @@
+{
+  "time": "2026-11-16T17:41:04.720416+00:00",
+  "priority": "사용자 후속 평가 범위 한정",
+  "evaluate": [
+    "evaluation44"
+  ],
+  "reuse_passed_44_result": true,
+  "cancelled": [
+    "validation221_detection_inference_and_AP",
+    "selected_model_HiVT_connection_and_forecast_comparison"
+  ],
+  "retain_training_full_validation_loss": true,
+  "retain_selected_epoch": 14,
+  "old_final_jobs_not_to_resume": true
+}

@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-11-10T11:40:43.665643+00:00",
+  "task_id": "tg-563161899",
+  "priority": 1,
+  "first_epoch_end_to_end_review_required": true,
+  "skip_already_completed_reviews": true,
+  "repeated_deep_reviews_after_first": false,
+  "validation8_AP_after_priority": false,
+  "validation8_AP_note": "초기epoch0와기존시험의AP는보존. 추론/AP계산경로는이미확인되어첫epoch의미확인전체검증·모델선정·저장만마무리한다.",
+  "full_validation_each_epoch": true,
+  "full_validation_clips": 221,
+  "full_validation_frames": 53807,
+  "selection": "minimum full validation loss including epoch0",
+  "patience": 5,
+  "batch": 4,
+  "hz": 10,
+  "preserve_checkpoint": true,
+  "basic_error_monitoring": true,
+  "final_test44_validation221_hivt_report_unchanged": true,
+  "frozen_training_json_unchanged": true,
+  "overrides_only": "supervision frequency and optional validation8 AP monitoring; not training, loss, data split, RNG, optimizer or learning-rate schedule"
+}

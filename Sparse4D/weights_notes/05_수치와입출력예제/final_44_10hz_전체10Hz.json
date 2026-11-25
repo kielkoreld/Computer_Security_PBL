@@ -1,0 +1,127 @@
+{
+  "classes": {
+    "car": {
+      "gt": 85202,
+      "predictions": 788966,
+      "mean_ap": 0.8401463088188368,
+      "threshold_ap": {
+        "0.5": 0.6371928879891432,
+        "1.0": 0.8215488372928919,
+        "2.0": 0.9366617162417776,
+        "4.0": 0.9651817937515341
+      },
+      "tp_errors": {
+        "trans_err": 0.18519599149104557,
+        "scale_err": 0.12774368673204062,
+        "orient_err": 0.01324796582752389,
+        "vel_err": 0.1755648919204108
+      },
+      "maximum_recall_at_2m": 0.98,
+      "TP_insufficient_recall_returns_default_1": false,
+      "valid_velocity_GT": 84391
+    },
+    "truck": {
+      "gt": 133,
+      "predictions": 1549,
+      "mean_ap": 0.7249738253740057,
+      "threshold_ap": {
+        "0.5": 0.3092206719149055,
+        "1.0": 0.7758745038076004,
+        "2.0": 0.8839110305307696,
+        "4.0": 0.9308890952427472
+      },
+      "tp_errors": {
+        "trans_err": 0.43215093480338684,
+        "scale_err": 0.05810838170694543,
+        "orient_err": 0.025582508219104808,
+        "vel_err": 0.9605150125715419
+      },
+      "maximum_recall_at_2m": 0.96,
+      "TP_insufficient_recall_returns_default_1": false,
+      "valid_velocity_GT": 129
+    },
+    "bus": {
+      "gt": 0,
+      "predictions": 0,
+      "mean_ap": null,
+      "threshold_ap": {
+        "0.5": null,
+        "1.0": null,
+        "2.0": null,
+        "4.0": null
+      },
+      "tp_errors": {},
+      "maximum_recall_at_2m": null,
+      "TP_insufficient_recall_returns_default_1": null,
+      "valid_velocity_GT": 0
+    },
+    "pedestrian": {
+      "gt": 947,
+      "predictions": 10007,
+      "mean_ap": 0.9738607173695237,
+      "threshold_ap": {
+        "0.5": 0.9354508855067213,
+        "1.0": 0.9856760394627755,
+        "2.0": 0.9871579722542994,
+        "4.0": 0.9871579722542994
+      },
+      "tp_errors": {
+        "trans_err": 0.17976342936643752,
+        "scale_err": 0.057714974615939545,
+        "orient_err": 0.018720097918082344,
+        "vel_err": 0.05163959085692501
+      },
+      "maximum_recall_at_2m": 1.0,
+      "TP_insufficient_recall_returns_default_1": false,
+      "valid_velocity_GT": 944
+    },
+    "bicycle": {
+      "gt": 2231,
+      "predictions": 9026,
+      "mean_ap": 0.7599271809929815,
+      "threshold_ap": {
+        "0.5": 0.610057568969507,
+        "1.0": 0.7205375624432979,
+        "2.0": 0.771104772232778,
+        "4.0": 0.9380088203263431
+      },
+      "tp_errors": {
+        "trans_err": 0.15656766604673403,
+        "scale_err": 0.11586900163107768,
+        "orient_err": 0.03284503688115693,
+        "vel_err": 0.24759614299681884
+      },
+      "maximum_recall_at_2m": 0.89,
+      "TP_insufficient_recall_returns_default_1": false,
+      "valid_velocity_GT": 2220
+    },
+    "motorcycle": {
+      "gt": 0,
+      "predictions": 0,
+      "mean_ap": null,
+      "threshold_ap": {
+        "0.5": null,
+        "1.0": null,
+        "2.0": null,
+        "4.0": null
+      },
+      "tp_errors": {},
+      "maximum_recall_at_2m": null,
+      "TP_insufficient_recall_returns_default_1": null,
+      "valid_velocity_GT": 0
+    }
+  },
+  "NDS": null,
+  "metric": "CARLA common-class nuScenes-devkit AP",
+  "min_precision": 0.1,
+  "min_recall": 0.1,
+  "distance_thresholds_m": [
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "gt_policy": "static_inclusive_v1",
+  "frames": 11645,
+  "mean_ap": 0.8247270081388369
+}

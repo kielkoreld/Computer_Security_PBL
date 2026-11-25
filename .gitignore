@@ -111,3 +111,21 @@ venv.bak/
 # seed project
 lightning_logs/
 .DS_Store
+
+# runtime / local artifacts
+outputs/
+logs/
+**/__pycache__/
+integration/_*.sh
+Sparse4D/.venv-models/
+HiVT/**/__pycache__/
+
+# regenerable / large local data (prep: Sparse4D/README.md)
+Sparse4D/external_data/
+
+# model weights — distributed separately (not in this repo)
+*.pth
+*.ckpt
+HiVT/checkpoints/
+Sparse4D/checkpoints/
+# HiVT connection ckpt also lives under lightning_logs/ (ignored above)
